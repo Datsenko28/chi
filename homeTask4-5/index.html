@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="/homeTask4-5/style.css" />
+  </head>
+  <body>
+    <!-- В данній домашній роботі було опрацьовано використання 
+        різних форм та робота із css  -->
+    <div class="wrapper">
+      <form action="#" method="post" enctype="multipart/form-data">
+
+        
+      <!-- form registration -->
+      <div class="form">
+        <form action="#" class="form__header">
+          <h1 class="form__title">Анкета студента ChiIt Academy</h1>
+          <label for="u_n"></label>
+          <div class="form_item">
+            <input
+              class="form__input"
+              type="text"
+              id="u_n"
+              placeholder="Введіть ім'я"
+              required
+            />
+          </div>
+          <div class="form_item">
+            <label for=""></label>
+            <input
+              class="form__input"
+              type="password"
+              placeholder="Введіть пароль"
+              required
+            />
+          </div>
+          <div class="button">
+            <input type="submit" class="form_button" />
+          </div>
+        </form>
+      </div>
+
+
+      <div class="main">
+        <h3>Виберіть відповіді які найбільше вам підходять</h3>
+        <!-- Форма flag -->
+        <div class="qw-flag">
+          <p class="text">
+            1.Що найбільше вам подобається на курсі Fron-end в ChiIt Academy?
+          </p>
+          <input type="checkbox" name="qw1[1]" value="1" />Інформація яку подає
+          викладач<br />
+          <input type="checkbox" name="qw2[2]" value="2" />Перевірка домашніх
+          завдань<br />
+          <input type="checkbox" name="qw3[3]" value="3" />Група однодумців<br />
+          <input type="checkbox" name="qw4[4]" value="4" />Професійність
+          викладача<br />
+        </div>
+        <!-- Радіо кнопка -->
+        <div class="qw-radioBtn">
+          <p class="text">
+            2.Оцініть навчання на курсі Fron-end в ChiIt Academy?
+          </p>
+          <input type="radio" name="mark" />Чудово<br />
+          <input type="radio" name="mark" />Добре<br />
+          <input type="radio" name="mark" />Посередньо<br />
+          <input type="radio" name="mark" />Нижче середнього<br />
+          <input type="radio" name="mark" />Погано<br />
+        </div>
+        <!-- Завантаження файла із -->
+        <div class="qw-downloadFile">
+          <p class="text">
+            3.Скиньте скрін останньої роботи яку ви виконали на курсі
+          </p>
+
+          <input type="file" name="foto" />
+        </div>
+        <!-- Випадний список -->
+        <div class="qw-drop down list">
+          <p class="text">
+            4.З якого пристрою та операційної с-ми ви найчастіше переглядаєте
+            уроки
+          </p>
+          <select name="selet">
+            <option value="mac">mac</option>
+            <option value="windows">windows</option>
+            <option value="linux">linux</option>
+            <option value="android">android</option>
+            <option value="ios">ios</option>
+          </select>
+        </div>
+        <!-- textarea -->
+        <div>
+          <p class="text">
+            5.Якщо у вас виникли запитання або побажання по даному курсу залиште
+            їх у формі нижче
+          </p>
+          <textarea class="textarea" name="text"></textarea>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

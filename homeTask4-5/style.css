@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/fon1.jpeg);
+  background-size: cover;
+  font-size: 14px;
+  height: 100%;
+
+  line-height: 1;
+  font-family: monospace;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  color: rgb(32, 34, 36);
+}
+
+.form__header {
+}
+.form__title {
+  font-size: 28px;
+}
+.form_item {
+  max-width: 350px;
+
+  margin: 12px 0px 12px 65px;
+}
+.form__input {
+  border-radius: 10px;
+  height: 35px;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.textarea {
+  min-height: 50px;
+  min-width: 500px;
+  resize: vertical;
+  border-radius: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.form_button {
+  border-radius: 10px;
+  min-height: 30px;
+  min-width: 100px;
+  background-color: #a9baf4;
+}
+
+.text {
+  max-width: 500px;
+  font-size: 15px;
+}
