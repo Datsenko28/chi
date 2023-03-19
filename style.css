@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgb(24, 22, 22);
+  align-items: center;
+}
+.logo {
+  margin: 20px;
+}
+.logo__item {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.items {
+  display: flex;
+  margin: 0 40px 0 0;
+}
+
+.items li {
+  margin: 0 20px;
+  list-style-type: none;
+}
+.item {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+}
+.item a :hover {
+  color: brown;
+}
