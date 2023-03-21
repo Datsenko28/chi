@@ -11,10 +11,13 @@ body {
 }
 .logo {
   margin: 20px;
+  font-size: 0;
+  width: 50px;
+  min-width: 20px;
 }
 .logo__item {
-  width: 50px;
   border-radius: 50%;
+  width: 100%;
 }
 
 .items {
@@ -26,11 +29,20 @@ body {
   margin: 0 20px;
   list-style-type: none;
 }
+.items li:first-child {
+  margin-left: 0;
+}
+.items li:last-child {
+  margin-right: 0;
+}
 .item {
   text-decoration: none;
   color: aliceblue;
   font-size: 18px;
 }
-.item a :hover {
-  color: brown;
+
+.items a:hover {
+  color: rgb(87, 201, 195);
+  opacity: 0.8;
+  text-decoration: underline;
 }
