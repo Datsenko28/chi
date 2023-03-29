@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 32px;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background: rgb(245, 29, 29);
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  min-height: calc(100vh - 140px);
+  color: aliceblue;
+}
+
+.sidebar {
+  width: 20%;
+  background: rgb(0, 255, 149);
+  color: aliceblue;
+}
+.content {
+  width: 80%;
+  background: rgb(0, 153, 255);
+  color: aliceblue;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background: rgb(224, 221, 26);
+  color: aliceblue;
+}
